@@ -1,0 +1,22 @@
+body{
+   background-image: url(Images/White-Background.jpg);
+}
+button{
+  width: 150px;
+  height:80px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgb(13, 13, 14);
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background-color: rgb(136, 128, 128);
+}
+button:hover{
+    color: white;
+}
+.SButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
