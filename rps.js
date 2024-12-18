@@ -8,9 +8,9 @@ function genMove(StrMove)
  {
   if (score.wins>score.losses)
   {
-    document.querySelector('.Result').innerText=`You Win,Try Again`
+    document.querySelector('.Result').innerText=`You Win`
   }
-  if (score.losses>score.wins)
+ else if (score.losses>score.wins)
   {
 document.querySelector('.Result').innerText=`You Lose,Try Again`
   }
