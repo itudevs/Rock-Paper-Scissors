@@ -1,0 +1,77 @@
+body{
+    background-image: url(Images/White-Background.jpg);
+ }
+ .Gimage{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgb(13, 13, 14);
+  border: none;
+    
+ }
+ .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+ 
+ }
+ 
+ .heading{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+ }
+ .js-score{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+  
+ }
+ .js-result{
+    margin-top: 40px;
+    margin-bottom:50px ;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+ }
+
+.JsImages{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border-color: black;
+ }
+ .FImage{
+    width: 100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    
+    
+ }
+ .Result{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 50px;
+ }
+ a{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+ }
+ a:hover{
+    color: gray;
+ }
+ 

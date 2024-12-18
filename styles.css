@@ -11,8 +11,17 @@ button{
  background-color: rgb(136, 128, 128);
 }
 button:hover{
-    color: white;
+
+    background-color: white;
+    color: black;
+    box-shadow: 10px 10px 5px rgb(164, 164, 168);
 }
+.heading{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+ }
 .SButton{
     position: absolute;
     top: 50%;
